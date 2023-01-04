@@ -1,0 +1,104 @@
+/* CSS CV MYSELF */
+#cv__myself {
+    margin: 100px 200px;
+    border: 2px solid #999898;
+    box-shadow: 3px 3px 10px 3px #999898;
+    position: relative;
+}
+.container {
+    margin-top: 30px;
+}
+.row {
+    margin: 30px 20px;
+    border-left: 1px solid #dbdada;
+    border-right: 1px solid #dbdada;
+}
+.row .col {
+    text-align: left;
+    /* margin: 0 0 30px 0; */
+    backdrop-filter: invert(3%);
+}
+/* COL LEFT */
+.row .col .avatar img {
+    object-fit:cover;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    opacity: 0.7;
+    box-shadow: 1px 1px 5px 2px #999898;
+    margin: 50px 50% 50px 0;
+}
+.row .col .introduction .name {
+    font-weight: 700;
+    font-family: roboto-bold,Arial,sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+}
+.row .col .introduction .position {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    text-transform: uppercase;
+    color: #626161;
+}
+.row .col .introduction .icon__started {
+    margin: 20px 0 10px 0;
+}
+.introduction .icon__started p {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #333;
+    line-height: 22px;
+    width: 90%;
+}
+.row .col .experience__job {
+    width: 90%;
+}
+.row .col .experience__job .title{
+    color: #00b4d8;
+    text-transform: uppercase;
+    /* font-family: roboto,Arial,sans-serif; */
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.experience__job .intro__job{
+    margin-top: 30px;
+    border-top: 1px solid #dbdada;
+}
+.experience__job .intro__job .time__work{
+    color: #333;
+    font-size: 13px;
+}
+.experience__job .intro__job .company__job,
+.experience__job .intro__job .intro__job--position{
+    font-weight: 500;
+    padding: 5px 0;
+}
+.experience__job .intro__job .describe {
+    color: #333;
+    font-size: 15px;
+}
+/* COL RIGHT */
+.col.order-5 {
+    backdrop-filter: invert(10%);
+}
+.information .title {
+    font-weight: 700;
+}
+.information .title__detail {
+    font-weight: 300;
+}
+.modified {
+    padding: 20px 0;
+    border-bottom: 1px solid #e8e6e6;
+}
+.modified .title__modified {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: roboto-bold,Arial,sans-serif;
+}
+.modified .time__achived {
+    font-weight: 600;
+}
