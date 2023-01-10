@@ -1,0 +1,23 @@
+.mapBar {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin: 20px 0;
+    color: #fff;
+    background-color:#f0f0f0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.title__mapbar, .percent__mapbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__mapbar {
+    flex: 0.2;
+    font-size: 14px;
+    font-weight: bolder;
+    filter: brightness(95%);
+}
+.percent__mapbar {
+    font-weight: bold;
+}
