@@ -1,0 +1,33 @@
+.mapBar {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: rgb(78, 77, 77);
+}
+.title__mapBar, .percent__mapBar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.title__mapBar {
+    flex: 0.25;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(95%);
+    padding-left: 10px;
+}
+.title__mapBar .title__language {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.title__mapBar p {
+    width: 100%;
+}
+.mapBar .percent__mapBar {
+    font-weight: bold;
+    border-radius: 3px;
+    height: 10px;
+    opacity: 0.8;
+}
