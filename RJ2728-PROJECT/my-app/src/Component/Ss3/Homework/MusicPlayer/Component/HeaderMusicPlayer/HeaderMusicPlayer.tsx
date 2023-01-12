@@ -7,7 +7,7 @@ const HeaderMusicPlayer: React.FunctionComponent<IHeaderMusicPlayerProps> = (
   props
 ) => {
   return (
-    <div>
+    <div className={Styles.header__music__player}>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand" href="#">
