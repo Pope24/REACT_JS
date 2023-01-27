@@ -15,7 +15,7 @@ const MusicPlayer: React.FunctionComponent<IMusicPlayerProps> = (props) => {
     >
       <HeaderMusicPlayer />
       <div className="container-fluid">
-        <div className="row flex-nowrap">
+        <div className="row flex-nowrap fixed-bottom-0">
           <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <SideBarMusicPlayer />
           </div>

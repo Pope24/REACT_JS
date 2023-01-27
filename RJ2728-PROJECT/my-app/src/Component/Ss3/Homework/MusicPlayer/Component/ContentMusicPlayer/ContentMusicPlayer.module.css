@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .content__music__player {
-    margin-top: 59px;
+}
+.navbar__song {
+  height: 120px;
+}
+.index__song {
+  position: relative;
+  top: 90px;
+  left: 10px;
+  color: #7c795d;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
 }
